@@ -119,6 +119,24 @@ const Footer = () => {
                 </div>
                 <span dir="ltr">0926060194</span>
               </a>
+              <a
+                href="tel:0916838362"
+                className="flex items-center gap-3 text-background/70 hover:text-accent transition-colors"
+              >
+                <div className="w-10 h-10 rounded-lg bg-background/10 flex items-center justify-center shrink-0">
+                  <Phone className="w-5 h-5 text-accent" />
+                </div>
+                <span dir="ltr">0916838362</span>
+              </a>
+              <a
+                href="mailto:info@ghargrow.ly"
+                className="flex items-center gap-3 text-background/70 hover:text-accent transition-colors"
+              >
+                <div className="w-10 h-10 rounded-lg bg-background/10 flex items-center justify-center shrink-0">
+                  <Mail className="w-5 h-5 text-accent" />
+                </div>
+                <span dir="ltr">info@ghargrow.ly</span>
+              </a>
             </div>
           </div>
         </div>
